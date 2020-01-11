@@ -19,6 +19,7 @@ public class Main {
     }
 
     public static int romanToInt(String s) {
+        // create map to store key and value pairs
         Map<Character, Integer> map = new HashMap<>();
         map.put('I', 1);
         map.put('V', 5);
@@ -41,9 +42,8 @@ public class Main {
            }
        }
 
-        System.out.println(result);
 
-       return 0;
+       return result;
 
     }
 }
