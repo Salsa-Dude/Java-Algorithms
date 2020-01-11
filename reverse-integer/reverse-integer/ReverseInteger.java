@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class ReverseInteger {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		int test = reverse(1534236469);
 		System.out.println(test);
 		
@@ -14,8 +14,7 @@ public class ReverseInteger {
         if(x == 0) {
 			return 0;
 		} 
-        
-    
+
         // The Integer.toString() method converts int to String. The toString() is the static method of Integer class.
 		// The signature of toString() method is given below:
 		String stringNum = Integer.toString(x);
@@ -31,7 +30,7 @@ public class ReverseInteger {
 		String newString = "";
 		
 		for(int i = stringNum.length() - 1; i >= 0; i--) {
-//			System.out.println(stringNum.charAt(i));
+        // System.out.println(stringNum.charAt(i));
 			newString += stringNum.charAt(i);
 		}
         
