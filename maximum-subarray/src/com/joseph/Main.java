@@ -15,7 +15,7 @@ public class Main {
     }
 
 
-    // CubicTimeSolution 
+    // CubicTimeSolution
 
     public static int maxSubArray(int[] nums) {
 
@@ -50,4 +50,6 @@ public class Main {
 
       return maxValue;
     }
+
+
 }
